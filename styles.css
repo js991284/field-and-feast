@@ -243,15 +243,15 @@ footer a:hover {
 
 /* Social links container */
 .social {
-    margin-top: 1.25rem;  /* Space above */
-    display: flex;/* Horizontal layout */
-    justify-content: center;/* Center items */
-    gap: 1rem;/* Space between */
+    margin-top: 1.25rem;  
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 /* Social link text */
 .social-link {
-    font-weight: bold;/* Bold text */
+    font-weight: bold;
 }
 
 /* Bold email address in footer */
@@ -275,7 +275,7 @@ footer a[href^="mailto"] {
     }
     /* Two-column gallery with increased gap */
     .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem; /* Increase gap size */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1.5rem;
     }
 }
