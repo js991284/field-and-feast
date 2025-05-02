@@ -279,3 +279,15 @@ footer a[href^="mailto"] {
         gap: 1.5rem;
     }
 }
+/*  (900px breakpoint) */
+@media screen and (min-width: 900px) {
+
+    /* Three-column gallery */
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 1.5rem 2.5rem; /* increase padding for larger screens */
+    }
+}
